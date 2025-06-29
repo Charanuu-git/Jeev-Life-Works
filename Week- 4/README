@@ -1,0 +1,38 @@
+# 🎓 Student Management System (Java + MySQL + JDBC)
+
+A simple console-based Java application to manage student records using a MySQL database and JDBC. It supports CRUD operations such as Add, View, Find, Update, and Delete students.
+
+---
+
+## 🔧 Technologies Used
+
+- Java 8
+- MySQL
+- JDBC
+- MySQL Connector/J
+- Console I/O
+
+---
+
+## 📁 Project Structure
+project/
+├── src/
+│ ├── config/ # DB configuration
+│ ├── dao/ # DAO interfaces and implementations
+│ ├── entity/ # Student model
+│ ├── service/ # Business logic
+│ └── ui/ # Console UI
+├── lib/ # MySQL JDBC jar (e.g., mysql-connector-j-9.3.0.jar)
+├── resources/ # DB properties
+└── out/ # Compiled .class files
+
+📋 Features
+- Add a new student
+- View all students
+- Search student by ID
+- Update student details
+- Delete student
+- MySQL-backed persistence
+
+Developed as part of Week 4 of Jeev Internship Program
+Author: Charan Sai. T
